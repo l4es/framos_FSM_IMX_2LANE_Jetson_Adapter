@@ -1035,8 +1035,6 @@ Connection ~ 7020 4065
 Wire Wire Line
 	7020 4065 7020 4545
 Wire Wire Line
-	7020 3730 7020 4065
-Wire Wire Line
 	10170 4040 10170 4645
 Connection ~ 10545 4040
 Wire Wire Line
@@ -1109,4 +1107,15 @@ F 3 "" H 7970 4545 60  0000 C CNN
 	1    7970 4545
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7020 3780 9900 3780
+Wire Wire Line
+	9900 3780 9900 3000
+Wire Wire Line
+	9900 3000 9990 3000
+Wire Wire Line
+	7020 3730 7020 3780
+Wire Wire Line
+	7020 3780 7020 4065
+Connection ~ 7020 3780
 $EndSCHEMATC
